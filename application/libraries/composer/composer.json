@@ -1,0 +1,16 @@
+{
+    "name": "dev/exdor",
+    "description": "Exdor Core",
+    "type": "project",
+    "require": {
+        "wisembly/elephant.io": "^3.3",
+        "tecnickcom/tcpdf": "^6.3",
+        "zelenin/smsru": "^4.1"
+    },
+    "authors": [
+        {
+            "name": "developer",
+            "email": "admin@exdor.ru"
+        }
+    ]
+}

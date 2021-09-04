@@ -1,0 +1,152 @@
+<div class="cover-container-root__inner js-ajax-popup js-img-upload-container">
+    <div class="cover-container-root__overlay js-overlay"></div>
+    <div class="popup-container">
+
+
+<!-- Окно -->
+<div id="requests__add-eq" class="modal__img is-rounded">
+    <form>
+    <div class="modal__head modal__head--dark is-first-item">
+        <a href="" class="modal__close-btn"><i class="fa fa-times"></i></a>
+    </div>
+    <!-- -->
+    <div class="req-img__load">
+        <div id="uploader">
+            
+            <div class="queueList">
+                <div id="dndArea" class="placeholder is-rounded">
+                    <i class="fa fa-picture-o"></i>
+                    <p>Перетащите сюда новые фото или нажмите</p>
+
+                     <!-- загрузка фото -->
+                    <input type="file" accept="image/jpeg,image/png*" id="fileElem" class="" multiple="" style="display:none" onchange="handleFiles(this.files);">
+                    <a href="#" id="fileSelect" class="loaded-img__btn btn ripple-effect btn-primary2 is-rounded" onClick="uploadImg(event);">
+                        Загрузить с компьютера
+                    </a>
+                    <!-- -->
+                </div>
+            </div>
+
+            <div class="loaded-img__block">
+                <p>Выберите те фотографии, которые нужно использовать в описании позиции</p>
+
+                <ul id="filelist" class="scrollbar-inner has-edit clear">
+                    <li>
+                        <img src="img/promo-space__bg.png">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/news-01.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/new-service__screen.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/content/big-img-example.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/promo-space__bg.png">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/news-01.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/new-service__screen.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/content/big-img-example.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/content/big-img-example.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/content/big-img-example.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/promo-space__bg.png">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/news-01.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/new-service__screen.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/content/big-img-example.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/promo-space__bg.png">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/news-01.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/new-service__screen.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/promo-space__bg.png">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/news-01.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                    <li>
+                        <img src="img/new-service__screen.jpg">
+                        <a href="" class="remove"></a>
+                        <a href="" class="edit"></a>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+    </div>
+    <!-- Футер окна -->
+    <div>
+        <a href="" class="req-img__submit is-last-item btn-primary2 btn ripple-effect">
+            <span>Использовать выбранное (<span>2 изображения</span>)</span>
+        </a>
+    </div>
+    </form>
+    <!-- end Футер окна -->
+</div>
+
+
+
+</div>
+</div>
+<!-- end Прикрепить еще фото -->
